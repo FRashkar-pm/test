@@ -1,14 +1,14 @@
 name: Test01
 api: 4.0.0
-version: 0.0.1
-main: Test01\Main
+version: 0.0.3
+main: CHL\test\test
 author: FRashkar-pm
 commands:
-  tests:
-    description: "Test01"
-    usage: /tests
-    permission: tests.use
-    aliases: tst
+  coba:
+    description: "Coba untuk mencoba"
+    usage: /coba
+    permission: coba.use
+    aliases: cba
 permissions:
-  tests.use:
+  coba.use:
     default: true
